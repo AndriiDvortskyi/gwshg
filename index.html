@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="qq.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="container">
+          <h1>Register</h1>
+          <p>Wypełnij ten formularz, aby utworzyć konto.</p>
+          <hr>
+    
+          <label for="Imię"><b>Imię</b></label>
+          <input type="text" placeholder="Wejść Imię" name="Imię" required>
+    
+          <label for="psw"><b>Nazwisko</b></label>
+          <input type="password" placeholder="Wejść Nazwisko" name="psw" required>
+    
+          <label for="email"><b>E-mail</b></label>
+          <input type="text" placeholder="Wejść E-mail" name="email" required>
+
+          <label for="password"><b>Hasło</b></label>
+          <input type="password" placeholder="Wejść Hasło" name="password" required>
+    
+          <label for="telefon"><b>Telefon</b></label>
+          <input type="text" placeholder="Wejść Telefon" name="telefon" required>
+          
+          <label for="posilek"><b>Wybór posiłku:</b></label>
+          <select name="posilek" id="posilek" required>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="hot dog">Hot dog</option>
+            <option value="shawarma">Shawarma</option>
+          </select>
+    
+          <label for="radio"><b>Płci</b></label>
+          <input type="radio" id="M">M
+          <input type="radio" id="K">K<br>
+
+          <input type="checkbox" id="zgoda">Zgoda
+    
+          <button type="submit" class="registerbtn">Wyślij</button>
+          <button type="reset" class="registerbtn">Resetuj</button>
+        </div>
+      </form>
+    
+</body>
+</html>
